@@ -1,0 +1,29 @@
+
+TimeEDT,TemperatureF,Dew PointF,Humidity,Sea Level PressureIn,VisibilityMPH,Wind Direction,Wind SpeedMPH,Gust SpeedMPH,PrecipitationIn,Events,Conditions,WindDirDegrees,DateUTC<br />
+12:51 AM,75.0,69.1,82,29.80,10.0,Variable,3.5,-,N/A,,Clear,0,2014-07-24 04:51:00<br />
+1:51 AM,73.9,68.0,82,29.81,10.0,Calm,Calm,-,N/A,,Mostly Cloudy,0,2014-07-24 05:51:00<br />
+2:51 AM,73.9,66.9,79,29.81,10.0,Variable,3.5,-,N/A,,Scattered Clouds,0,2014-07-24 06:51:00<br />
+3:51 AM,73.0,66.0,79,29.81,10.0,North,-9999.0,-,N/A,,Mostly Cloudy,0,2014-07-24 07:51:00<br />
+4:51 AM,73.0,64.0,73,29.82,10.0,North,-9999.0,-,N/A,,Overcast,0,2014-07-24 08:51:00<br />
+5:51 AM,73.0,63.0,71,29.82,10.0,Variable,3.5,-,N/A,,Overcast,0,2014-07-24 09:51:00<br />
+6:51 AM,72.0,64.0,76,29.84,10.0,Variable,4.6,-,N/A,,Mostly Cloudy,0,2014-07-24 10:51:00<br />
+7:26 AM,72.0,64.0,76,29.87,10.0,Variable,4.6,-,N/A,,Mostly Cloudy,0,2014-07-24 11:26:00<br />
+7:51 AM,72.0,64.9,78,29.85,10.0,Variable,3.5,-,N/A,,Scattered Clouds,0,2014-07-24 11:51:00<br />
+8:51 AM,73.9,64.0,71,29.86,10.0,Variable,3.5,-,N/A,,Mostly Cloudy,0,2014-07-24 12:51:00<br />
+9:18 AM,73.9,64.0,71,29.88,-9999.0,ENE,9.2,-,N/A,,Overcast,70,2014-07-24 13:18:00<br />
+9:51 AM,73.9,63.0,68,29.86,-9999.0,ENE,5.8,-,N/A,,Overcast,60,2014-07-24 13:51:00<br />
+10:46 AM,73.4,62.6,69,29.90,-9999.0,NNE,5.8,-,N/A,,Overcast,30,2014-07-24 14:46:00<br />
+10:51 AM,73.9,63.0,68,29.87,-9999.0,Variable,3.5,-,N/A,,Overcast,0,2014-07-24 14:51:00<br />
+11:51 AM,75.0,62.1,64,29.87,-9999.0,Variable,5.8,-,N/A,,Scattered Clouds,0,2014-07-24 15:51:00<br />
+12:51 PM,75.9,61.0,60,29.87,-9999.0,Variable,6.9,-,N/A,,Scattered Clouds,0,2014-07-24 16:51:00<br />
+1:51 PM,77.0,61.0,58,29.87,-9999.0,ENE,5.8,-,N/A,,Mostly Cloudy,60,2014-07-24 17:51:00<br />
+2:51 PM,79.0,57.0,47,29.85,10.0,Variable,4.6,-,N/A,,Partly Cloudy,0,2014-07-24 18:51:00<br />
+3:51 PM,79.0,59.0,50,29.85,10.0,ENE,8.1,-,N/A,,Partly Cloudy,70,2014-07-24 19:51:00<br />
+4:51 PM,77.0,55.0,47,29.85,10.0,North,6.9,-,N/A,,Mostly Cloudy,10,2014-07-24 20:51:00<br />
+5:51 PM,78.1,57.0,48,29.83,10.0,NE,9.2,-,N/A,,Mostly Cloudy,50,2014-07-24 21:51:00<br />
+6:51 PM,75.9,57.9,54,29.85,10.0,NNE,6.9,-,N/A,,Mostly Cloudy,30,2014-07-24 22:51:00<br />
+7:51 PM,75.9,55.9,50,29.86,10.0,Variable,5.8,-,N/A,,Clear,0,2014-07-24 23:51:00<br />
+8:51 PM,77.0,55.0,47,29.88,10.0,NNE,4.6,-,N/A,,Mostly Cloudy,20,2014-07-25 00:51:00<br />
+9:51 PM,75.0,55.0,50,29.89,10.0,Variable,3.5,-,N/A,,Mostly Cloudy,0,2014-07-25 01:51:00<br />
+10:51 PM,73.9,55.9,53,29.91,10.0,Calm,Calm,-,N/A,,Partly Cloudy,0,2014-07-25 02:51:00<br />
+11:51 PM,73.0,52.0,48,29.91,10.0,North,-9999.0,-,N/A,,Clear,0,2014-07-25 03:51:00<br />
