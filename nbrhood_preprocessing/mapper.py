@@ -98,43 +98,95 @@ def mapper():
         if 'VendorID' in line or 'vendor_id' in line :
             continue
 
-        if 'yellow' in filename:
+        if 'yellow' in filename and '2015' in filename:
             try:
                 pickup_location = (float(values[5]), float(values[6]))
                 dropoff_location = (float(values[9])), float(values[10])
                 pickupDate = values[1][:10]
 
+                pickup_neighborhood = findNeighborhood(pickup_location, index, neighborhoods, 0)
+                dropoff_neighborhood = findNeighborhood(dropoff_location, index, neighborhoods, 0)
+
+                pickupRegion = neighborhoods[pickup_neighborhood][0]
+                pickupMain = neighborhoods[pickup_neighborhood][2]
+
+                dropoffRegion = neighborhoods[dropoff_neighborhood][0]
+                dropoffMain = neighborhoods[dropoff_neighborhood][2]
+
+                val = [values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9], values[10], values[11], values[12], values[13], values[14], values[15], values[16], values[17], values[18], pickupRegion, pickupMain, dropoffRegion, dropoffMain]
+                valj = ','.join(val)
+                print "%s\t%s" % (pickupDate, valj)
+
             except Exception:
                 pass
 
-        else:
+        elif 'yellow' in filename and '2014' in filename:
+            try:
+                pickup_location = (float(values[5]), float(values[6]))
+                dropoff_location = (float(values[9])), float(values[10])
+                pickupDate = values[1][:10]
+
+                pickup_neighborhood = findNeighborhood(pickup_location, index, neighborhoods, 0)
+                dropoff_neighborhood = findNeighborhood(dropoff_location, index, neighborhoods, 0)
+
+                pickupRegion = neighborhoods[pickup_neighborhood][0]
+                pickupMain = neighborhoods[pickup_neighborhood][2]
+
+                dropoffRegion = neighborhoods[dropoff_neighborhood][0]
+                dropoffMain = neighborhoods[dropoff_neighborhood][2]
+
+                addn_col = '0.0'
+                val = [values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9], values[10], values[11], values[12], values[13], values[14], values[15], values[16], addn_col, values[17], pickupRegion, pickupMain, dropoffRegion, dropoffMain]
+                valj = ','.join(val)
+                print "%s\t%s" % (pickupDate, valj)
+
+            except Exception:
+                pass
+
+        elif 'green' in filename and '2014' in filename:
             try:
                 pickup_location = (float(values[5]), float(values[6]))
                 dropoff_location = (float(values[7])), float(values[8])
                 pickupDate = values[1][:10]
 
+                pickup_neighborhood = findNeighborhood(pickup_location, index, neighborhoods, 0)
+                dropoff_neighborhood = findNeighborhood(dropoff_location, index, neighborhoods, 0)
+
+                pickupRegion = neighborhoods[pickup_neighborhood][0]
+                pickupMain = neighborhoods[pickup_neighborhood][2]
+
+                dropoffRegion = neighborhoods[dropoff_neighborhood][0]
+                dropoffMain = neighborhoods[dropoff_neighborhood][2]
+
+                addn_col = '0.0'
+                val = [values[0], values[1], values[2], values[9], values[10], values[5], values[6], values[4], values[3], values[7], values[8], values[18], values[11], values[12], values[13], values[14], values[15], addn_col, values[17], pickupRegion, pickupMain, dropoffRegion, dropoffMain]
+                valj = ','.join(val)
+                print "%s\t%s" % (pickupDate, valj)
+
             except Exception:
                 pass
 
+        elif 'green' in filename and '2015' in filename:
+            try:
+                pickup_location = (float(values[5]), float(values[6]))
+                dropoff_location = (float(values[7])), float(values[8])
+                pickupDate = values[1][:10]
 
-        try:
-            pickup_neighborhood = findNeighborhood(pickup_location, index, neighborhoods, 0)
-            dropoff_neighborhood = findNeighborhood(dropoff_location, index, neighborhoods, 0)
+                pickup_neighborhood = findNeighborhood(pickup_location, index, neighborhoods, 0)
+                dropoff_neighborhood = findNeighborhood(dropoff_location, index, neighborhoods, 0)
 
-            pickupRegion = neighborhoods[pickup_neighborhood][0]
-            pickupMain = neighborhoods[pickup_neighborhood][2]
+                pickupRegion = neighborhoods[pickup_neighborhood][0]
+                pickupMain = neighborhoods[pickup_neighborhood][2]
 
-            dropoffRegion = neighborhoods[dropoff_neighborhood][0]
-            dropoffMain = neighborhoods[dropoff_neighborhood][2]
+                dropoffRegion = neighborhoods[dropoff_neighborhood][0]
+                dropoffMain = neighborhoods[dropoff_neighborhood][2]
 
-            val = [line, pickupRegion, pickupMain, dropoffRegion, dropoffMain]
-            valj = ','.join(val)
-            print "%s\t%s" % (pickupDate, valj)
-            # print line + "," + pickupRegion + ","  + dropoffRegion
+                val = [values[0], values[1], values[2], values[9], values[10], values[5], values[6], values[4], values[3], values[7], values[8], values[19], values[11], values[12], values[13], values[14], values[15], values[17], values[18], pickupRegion, pickupMain, dropoffRegion, dropoffMain]
+                valj = ','.join(val)
+                print "%s\t%s" % (pickupDate, valj)
 
-
-        except Exception:
-            pass
+            except Exception:
+                pass
 
     # fl.close()
 if __name__ == '__main__':
