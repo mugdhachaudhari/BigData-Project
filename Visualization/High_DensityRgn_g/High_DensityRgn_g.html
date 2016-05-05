@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+/* CSS goes here. */
+
+</style>
+<body>
+<h4 id="hovered">New York City</h4>
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//d3js.org/queue.v1.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="zillow_var.js"></script>
+<script>
+
+/* JavaScript goes here. */
+var width = 700,
+    height = 580;
+
+var svg = d3.select( "body" )
+    .append( "svg" )
+    .attr( "width", width )
+    .attr( "height", height );
+	
+var color = d3.scale.threshold()
+    .domain([22, 23, 24])
+    .range(["#b3cde3", "#8c96c6", "#8856a7", "#810f7c"]);
+	
+// Append g element to the SVG
+// g will contain geometry elements
+var g = svg.append( "g" );
+
+// Set Projection Parameters
+var albersProjection = d3.geo.albers()
+    .scale(80000)
+    .rotate([73.989717, 0])
+    .center([0, 40.724243])
+    .translate( [width/2,height/2] );
+
+
+
+// Create GeoPath function that uses built-in D3 functionality to turn
+// lat/lon coordinates into screen coordinates
+var geoPath = d3.geo.path()
+    .projection( albersProjection );
+
+queue()
+    .defer(d3.json, "zillow_nbrhood.json")
+    .defer(d3.csv, "High_DensityRgn_g.csv")
+    .await(ready);
+
+function ready(error, zillow_nbrhood, High_DensityRgn_g) {
+  if (error) throw error;
+  
+ var hghdensId = {};
+
+  High_DensityRgn_g.forEach(function(d) { hghdensId[d.hood] = +d.cnt; });
+  
+
+// Classic D3... Select non-existent elements, bind the data, append the elements, and apply attributes
+svg.append( "g" )
+.attr("class", "counties")
+.selectAll( "path" )
+    .data( z_json.features )
+    .enter()
+    .append( "path" )
+    .attr( "fill", "#ccc" )
+    .attr( "stroke", "#333")
+    .attr( "d", geoPath )
+	.style("fill", function(d) {console.log(hghdensId[d.properties.NAME]); return color(hghdensId[d.properties.NAME]); })
+  .on("mouseover",function (d) {
+                     if (d.properties.NAME in hghdensId ) {
+                            d3.select('#hovered').text( d.properties.NAME + " : " + hghdensId[d.properties.NAME] );
+                  }  else {
+                            d3.select('#hovered').text( d.properties.NAME );
+                  }    
+});
+
+
+  svg.append("path")
+      .datum(topojson.mesh(zillow_nbrhood, zillow_nbrhood.features[1].properties, function(a, b) { return a.id !== b.id; }))
+      .attr("d", geoPath);
+
+	
+}
+
+</script>
