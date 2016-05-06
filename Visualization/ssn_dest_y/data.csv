@@ -1,0 +1,396 @@
+season,hood,m_hood,cnt
+Fall,Midtown,New York City-Manhattan	,11404895
+Fall,Upper East Side,New York City-Manhattan	,9387857
+Fall,Upper West Side,New York City-Manhattan	,5998104
+Fall,Gramercy,New York City-Manhattan	,5313360
+Fall,Chelsea,New York City-Manhattan	,4569696
+Fall,Garment District,New York City-Manhattan	,3650697
+Fall,Greenwich Village,New York City-Manhattan	,2829719
+Fall,Murray Hill,New York City-Manhattan	,2463360
+Fall,Clinton,New York City-Manhattan	,2368247
+Fall,East Village,New York City-Manhattan	,2293471
+Fall,Financial District,New York City-Manhattan	,1708992
+Fall,West Village,New York City-Manhattan	,1693604
+Fall,Soho,New York City-Manhattan	,1531599
+Fall,Lower East Side,New York City-Manhattan	,1502644
+Fall,Tribeca,New York City-Manhattan	,1150550
+Fall,Central Park,New York City-Manhattan	,937729
+Fall,Carnegie Hill,New York City-Manhattan	,930188
+Fall,Harlem,New York City-Manhattan	,775675
+Fall,Yorkville,New York City-Manhattan	,749310
+Fall,Battery Park,New York City-Manhattan	,687756
+Fall,Astoria-Long Island City,New York City-Queens	,626762
+Fall,Williamsburg,New York City-Brooklyn	,620606
+Fall,North Sutton Area,New York City-Manhattan	,590374
+Fall,Morningside Heights,New York City-Manhattan	,571343
+Fall,Fort Green,New York City-Brooklyn	,500561
+Fall,Little Italy,New York City-Manhattan	,479677
+Fall,East Harlem,New York City-Manhattan	,433988
+Fall,Sunny Side,New York City-Queens	,424493
+Fall,Washington Heights,New York City-Manhattan	,400247
+Fall,Bedford-Stuyvesant,New York City-Brooklyn	,324845
+Fall,Park Slope,New York City-Brooklyn	,292630
+Fall,Hamilton Heights,New York City-Manhattan	,273728
+Fall,Chinatown,New York City-Manhattan	,228968
+Fall,Downtown,New York City-Brooklyn	,196836
+Fall,Bushwick,New York City-Brooklyn	,170475
+Fall,Jackson Heights,New York City-Queens	,169981
+Fall,Carroll Gardens,New York City-Brooklyn	,143834
+Fall,Boerum Hill,New York City-Brooklyn	,117917
+Fall,Woodside,New York City-Queens	,112588
+Fall,Forest Hills,New York City-Queens	,107390
+Fall,Cobble Hill,New York City-Brooklyn	,64902
+Fall,Mott Haven,New York City-Bronx	,62858
+Fall,Bay Ridge,New York City-Brooklyn	,61629
+Fall,Inwood,New York City-Manhattan	,58934
+Fall,Mapleton-Flatlands,New York City-Brooklyn	,54201
+Fall,South Bronx,New York City-Bronx	,51610
+Fall,Borough Park,New York City-Brooklyn	,50293
+Fall,Ridgewood,New York City-Queens	,48783
+Fall,Flushing,New York City-Queens	,48547
+Fall,Nkew Gardens,New York City-Queens	,44297
+Fall,Greenwood,New York City-Brooklyn	,44171
+Fall,Gravesend-Sheepshead Bay,New York City-Brooklyn	,42656
+Fall,Sunset Park,New York City-Brooklyn	,42106
+Fall,High Bridge,New York City-Bronx	,38676
+Fall,Jamaica,New York City-Queens	,35461
+Fall,Maspeth,New York City-Queens	,34106
+Fall,Utopia,New York City-Queens	,32223
+Fall,Riverdale,New York City-Bronx	,25169
+Fall,Woodhaven-Richmond Hill,New York City-Queens	,22679
+Fall,Middle Village,New York City-Queens	,22513
+Fall,East Brooklyn,New York City-Brooklyn	,19299
+Fall,Canarsie,New York City-Brooklyn	,18974
+Fall,Parkchester,New York City-Bronx	,18687
+Fall,Bedford Park,New York City-Bronx	,18596
+Fall,Bensonhurst,New York City-Brooklyn	,18209
+Fall,Kings Bridge,New York City-Bronx	,17777
+Fall,Tremont,New York City-Bronx	,16901
+Fall,Brownsville,New York City-Brooklyn	,16347
+Fall,Spuyten Duyvil,New York City-Bronx	,15666
+Fall,Soundview,New York City-Bronx	,15572
+Fall,Springfield Gardens,New York City-Queens	,15370
+Fall,Morris Heights,New York City-Bronx	,13263
+Fall,Fordham,New York City-Bronx	,13188
+Fall,Queensboro Hill,New York City-Queens	,12651
+Fall,University Heights,New York City-Bronx	,12554
+Fall,Douglastown-Little Neck,New York City-Queens	,12212
+Fall,Dyker Heights,New York City-Brooklyn	,12142
+Fall,Morris Park,New York City-Bronx	,11912
+Fall,Glendale,New York City-Queens	,10712
+Fall,Auburndale,New York City-Queens	,8131
+Fall,Wakefield-Williamsbridge,New York City-Bronx	,8095
+Fall,Union Port,New York City-Bronx	,7866
+Fall,Saintalbans,New York City-Queens	,7739
+Fall,Woodlawn-Nordwood,New York City-Bronx	,7265
+Fall,Laurelton,New York City-Queens	,6800
+Fall,Throggs Neck,New York City-Bronx	,6774
+Fall,Williams Bridge,New York City-Bronx	,6737
+Fall,The Rockaways,New York City-Queens	,6538
+Fall,Hunts Point,New York City-Bronx	,6476
+Fall,Queens Village,New York City-Queens	,6207
+Fall,Clearview,New York City-Queens	,5990
+Fall,Country Club,New York City-Bronx	,5280
+Fall,Baychester,New York City-Bronx	,2572
+Fall,Corona,New York City-Queens	,1085
+Fall,City Island,New York City-Bronx	,854
+Fall,Flatbush,New York City-Brooklyn	,285
+Fall,Steinway,New York City-Queens	,56
+Fall,Whitestone,New York City-Queens	,6
+Spring,Midtown,New York City-Manhattan	,12894476
+Spring,Upper East Side,New York City-Manhattan	,10320536
+Spring,Upper West Side,New York City-Manhattan	,6573381
+Spring,Gramercy,New York City-Manhattan	,5879185
+Spring,Chelsea,New York City-Manhattan	,5035200
+Spring,Garment District,New York City-Manhattan	,4054190
+Spring,Greenwich Village,New York City-Manhattan	,3150113
+Spring,Murray Hill,New York City-Manhattan	,2727428
+Spring,Clinton,New York City-Manhattan	,2619534
+Spring,East Village,New York City-Manhattan	,2533780
+Spring,West Village,New York City-Manhattan	,1874716
+Spring,Financial District,New York City-Manhattan	,1850630
+Spring,Lower East Side,New York City-Manhattan	,1690565
+Spring,Soho,New York City-Manhattan	,1678926
+Spring,Tribeca,New York City-Manhattan	,1265737
+Spring,Central Park,New York City-Manhattan	,1036467
+Spring,Carnegie Hill,New York City-Manhattan	,1001224
+Spring,Harlem,New York City-Manhattan	,893952
+Spring,Yorkville,New York City-Manhattan	,860847
+Spring,Williamsburg,New York City-Brooklyn	,745192
+Spring,Battery Park,New York City-Manhattan	,733702
+Spring,Astoria-Long Island City,New York City-Queens	,714820
+Spring,Morningside Heights,New York City-Manhattan	,675084
+Spring,North Sutton Area,New York City-Manhattan	,657561
+Spring,Fort Green,New York City-Brooklyn	,593561
+Spring,Little Italy,New York City-Manhattan	,525614
+Spring,East Harlem,New York City-Manhattan	,490038
+Spring,Sunny Side,New York City-Queens	,462147
+Spring,Washington Heights,New York City-Manhattan	,460815
+Spring,Bedford-Stuyvesant,New York City-Brooklyn	,374656
+Spring,Park Slope,New York City-Brooklyn	,345563
+Spring,Hamilton Heights,New York City-Manhattan	,316946
+Spring,Chinatown,New York City-Manhattan	,247191
+Spring,Downtown,New York City-Brooklyn	,216012
+Spring,Bushwick,New York City-Brooklyn	,206867
+Spring,Jackson Heights,New York City-Queens	,187799
+Spring,Carroll Gardens,New York City-Brooklyn	,166635
+Spring,Boerum Hill,New York City-Brooklyn	,135144
+Spring,Woodside,New York City-Queens	,125162
+Spring,Forest Hills,New York City-Queens	,121802
+Spring,Cobble Hill,New York City-Brooklyn	,74934
+Spring,Mott Haven,New York City-Bronx	,74873
+Spring,Bay Ridge,New York City-Brooklyn	,70298
+Spring,Inwood,New York City-Manhattan	,65037
+Spring,Mapleton-Flatlands,New York City-Brooklyn	,64187
+Spring,South Bronx,New York City-Bronx	,63208
+Spring,Borough Park,New York City-Brooklyn	,56987
+Spring,Ridgewood,New York City-Queens	,55921
+Spring,Greenwood,New York City-Brooklyn	,51925
+Spring,Nkew Gardens,New York City-Queens	,51455
+Spring,Gravesend-Sheepshead Bay,New York City-Brooklyn	,47872
+Spring,Sunset Park,New York City-Brooklyn	,47047
+Spring,High Bridge,New York City-Bronx	,46972
+Spring,Flushing,New York City-Queens	,46088
+Spring,Jamaica,New York City-Queens	,38945
+Spring,Maspeth,New York City-Queens	,37536
+Spring,Utopia,New York City-Queens	,36962
+Spring,Riverdale,New York City-Bronx	,26996
+Spring,Woodhaven-Richmond Hill,New York City-Queens	,26314
+Spring,Middle Village,New York City-Queens	,25308
+Spring,East Brooklyn,New York City-Brooklyn	,22653
+Spring,Bedford Park,New York City-Bronx	,22618
+Spring,Canarsie,New York City-Brooklyn	,22128
+Spring,Parkchester,New York City-Bronx	,21890
+Spring,Bensonhurst,New York City-Brooklyn	,21713
+Spring,Tremont,New York City-Bronx	,21549
+Spring,Kings Bridge,New York City-Bronx	,20466
+Spring,Brownsville,New York City-Brooklyn	,19081
+Spring,Soundview,New York City-Bronx	,18758
+Spring,Fordham,New York City-Bronx	,17604
+Spring,Spuyten Duyvil,New York City-Bronx	,17472
+Spring,Springfield Gardens,New York City-Queens	,16421
+Spring,Morris Heights,New York City-Bronx	,16101
+Spring,University Heights,New York City-Bronx	,15218
+Spring,Queensboro Hill,New York City-Queens	,14452
+Spring,Morris Park,New York City-Bronx	,14087
+Spring,Dyker Heights,New York City-Brooklyn	,14001
+Spring,Douglastown-Little Neck,New York City-Queens	,13090
+Spring,Glendale,New York City-Queens	,12035
+Spring,Wakefield-Williamsbridge,New York City-Bronx	,10063
+Spring,Union Port,New York City-Bronx	,9341
+Spring,Auburndale,New York City-Queens	,8730
+Spring,Williams Bridge,New York City-Bronx	,8178
+Spring,Woodlawn-Nordwood,New York City-Bronx	,8151
+Spring,Throggs Neck,New York City-Bronx	,8065
+Spring,Hunts Point,New York City-Bronx	,8037
+Spring,Saintalbans,New York City-Queens	,7964
+Spring,The Rockaways,New York City-Queens	,7172
+Spring,Clearview,New York City-Queens	,6730
+Spring,Laurelton,New York City-Queens	,6717
+Spring,Queens Village,New York City-Queens	,6475
+Spring,Country Club,New York City-Bronx	,6026
+Spring,Baychester,New York City-Bronx	,3229
+Spring,City Island,New York City-Bronx	,968
+Spring,Corona,New York City-Queens	,891
+Spring,Flatbush,New York City-Brooklyn	,426
+Spring,Steinway,New York City-Queens	,150
+Spring,Whitestone,New York City-Queens	,4
+Spring,Howard Beach,New York City-Queens	,2
+Spring,College Point,New York City-Queens	,1
+Summer,Midtown,New York City-Manhattan	,11709575
+Summer,Upper East Side,New York City-Manhattan	,8539340
+Summer,Upper West Side,New York City-Manhattan	,5372837
+Summer,Gramercy,New York City-Manhattan	,5238891
+Summer,Chelsea,New York City-Manhattan	,4467565
+Summer,Garment District,New York City-Manhattan	,3912278
+Summer,Greenwich Village,New York City-Manhattan	,2659672
+Summer,Murray Hill,New York City-Manhattan	,2554309
+Summer,Clinton,New York City-Manhattan	,2459338
+Summer,East Village,New York City-Manhattan	,2243262
+Summer,Financial District,New York City-Manhattan	,1794459
+Summer,West Village,New York City-Manhattan	,1703876
+Summer,Soho,New York City-Manhattan	,1507547
+Summer,Lower East Side,New York City-Manhattan	,1496706
+Summer,Tribeca,New York City-Manhattan	,1097978
+Summer,Central Park,New York City-Manhattan	,894245
+Summer,Harlem,New York City-Manhattan	,782485
+Summer,Carnegie Hill,New York City-Manhattan	,727946
+Summer,Yorkville,New York City-Manhattan	,722946
+Summer,Battery Park,New York City-Manhattan	,711238
+Summer,Astoria-Long Island City,New York City-Queens	,648308
+Summer,Williamsburg,New York City-Brooklyn	,611545
+Summer,North Sutton Area,New York City-Manhattan	,562130
+Summer,Fort Green,New York City-Brooklyn	,488777
+Summer,Little Italy,New York City-Manhattan	,474087
+Summer,Morningside Heights,New York City-Manhattan	,469568
+Summer,East Harlem,New York City-Manhattan	,435169
+Summer,Sunny Side,New York City-Queens	,407895
+Summer,Washington Heights,New York City-Manhattan	,406808
+Summer,Bedford-Stuyvesant,New York City-Brooklyn	,325893
+Summer,Park Slope,New York City-Brooklyn	,290983
+Summer,Hamilton Heights,New York City-Manhattan	,274491
+Summer,Chinatown,New York City-Manhattan	,244405
+Summer,Downtown,New York City-Brooklyn	,190830
+Summer,Jackson Heights,New York City-Queens	,178840
+Summer,Bushwick,New York City-Brooklyn	,168082
+Summer,Carroll Gardens,New York City-Brooklyn	,141836
+Summer,Woodside,New York City-Queens	,116158
+Summer,Boerum Hill,New York City-Brooklyn	,114510
+Summer,Forest Hills,New York City-Queens	,112743
+Summer,Mott Haven,New York City-Bronx	,63350
+Summer,Bay Ridge,New York City-Brooklyn	,63331
+Summer,Cobble Hill,New York City-Brooklyn	,62527
+Summer,Inwood,New York City-Manhattan	,58974
+Summer,Mapleton-Flatlands,New York City-Brooklyn	,57621
+Summer,South Bronx,New York City-Bronx	,56683
+Summer,Borough Park,New York City-Brooklyn	,51687
+Summer,Ridgewood,New York City-Queens	,47359
+Summer,High Bridge,New York City-Bronx	,47168
+Summer,Nkew Gardens,New York City-Queens	,46158
+Summer,Flushing,New York City-Queens	,46025
+Summer,Greenwood,New York City-Brooklyn	,44784
+Summer,Gravesend-Sheepshead Bay,New York City-Brooklyn	,43582
+Summer,Sunset Park,New York City-Brooklyn	,42250
+Summer,Jamaica,New York City-Queens	,39951
+Summer,Maspeth,New York City-Queens	,34344
+Summer,Utopia,New York City-Queens	,34121
+Summer,Woodhaven-Richmond Hill,New York City-Queens	,25209
+Summer,Middle Village,New York City-Queens	,23000
+Summer,Riverdale,New York City-Bronx	,22283
+Summer,Canarsie,New York City-Brooklyn	,21643
+Summer,East Brooklyn,New York City-Brooklyn	,21466
+Summer,Parkchester,New York City-Bronx	,20292
+Summer,Bedford Park,New York City-Bronx	,20178
+Summer,Bensonhurst,New York City-Brooklyn	,19254
+Summer,Tremont,New York City-Bronx	,18830
+Summer,Brownsville,New York City-Brooklyn	,18437
+Summer,Springfield Gardens,New York City-Queens	,18184
+Summer,Kings Bridge,New York City-Bronx	,17551
+Summer,Soundview,New York City-Bronx	,17523
+Summer,Spuyten Duyvil,New York City-Bronx	,15280
+Summer,Fordham,New York City-Bronx	,14610
+Summer,Morris Heights,New York City-Bronx	,13953
+Summer,Queensboro Hill,New York City-Queens	,13444
+Summer,Morris Park,New York City-Bronx	,13369
+Summer,University Heights,New York City-Bronx	,13252
+Summer,Dyker Heights,New York City-Brooklyn	,12518
+Summer,Douglastown-Little Neck,New York City-Queens	,12419
+Summer,Glendale,New York City-Queens	,11057
+Summer,Auburndale,New York City-Queens	,10558
+Summer,Wakefield-Williamsbridge,New York City-Bronx	,9713
+Summer,Union Port,New York City-Bronx	,9039
+Summer,Saintalbans,New York City-Queens	,8694
+Summer,Laurelton,New York City-Queens	,8092
+Summer,Woodlawn-Nordwood,New York City-Bronx	,7631
+Summer,The Rockaways,New York City-Queens	,7513
+Summer,Williams Bridge,New York City-Bronx	,7479
+Summer,Queens Village,New York City-Queens	,7268
+Summer,Throggs Neck,New York City-Bronx	,7166
+Summer,Hunts Point,New York City-Bronx	,7115
+Summer,Clearview,New York City-Queens	,6324
+Summer,Country Club,New York City-Bronx	,6112
+Summer,Baychester,New York City-Bronx	,3049
+Summer,City Island,New York City-Bronx	,972
+Summer,Corona,New York City-Queens	,775
+Summer,Flatbush,New York City-Brooklyn	,377
+Summer,Steinway,New York City-Queens	,142
+Summer,Whitestone,New York City-Queens	,4
+Summer,College Point,New York City-Queens	,1
+Winter,Midtown,New York City-Manhattan	,11644986
+Winter,Upper East Side,New York City-Manhattan	,9611156
+Winter,Upper West Side,New York City-Manhattan	,6176873
+Winter,Gramercy,New York City-Manhattan	,5494339
+Winter,Chelsea,New York City-Manhattan	,4557038
+Winter,Garment District,New York City-Manhattan	,3740185
+Winter,Greenwich Village,New York City-Manhattan	,2881488
+Winter,Murray Hill,New York City-Manhattan	,2462608
+Winter,Clinton,New York City-Manhattan	,2419714
+Winter,East Village,New York City-Manhattan	,2410841
+Winter,West Village,New York City-Manhattan	,1666066
+Winter,Financial District,New York City-Manhattan	,1608137
+Winter,Lower East Side,New York City-Manhattan	,1528711
+Winter,Soho,New York City-Manhattan	,1518097
+Winter,Tribeca,New York City-Manhattan	,1144491
+Winter,Carnegie Hill,New York City-Manhattan	,940790
+Winter,Central Park,New York City-Manhattan	,912143
+Winter,Harlem,New York City-Manhattan	,804798
+Winter,Yorkville,New York City-Manhattan	,771801
+Winter,Astoria-Long Island City,New York City-Queens	,656246
+Winter,Battery Park,New York City-Manhattan	,653980
+Winter,Williamsburg,New York City-Brooklyn	,632280
+Winter,North Sutton Area,New York City-Manhattan	,620116
+Winter,Morningside Heights,New York City-Manhattan	,555077
+Winter,Fort Green,New York City-Brooklyn	,525144
+Winter,Little Italy,New York City-Manhattan	,485441
+Winter,East Harlem,New York City-Manhattan	,439395
+Winter,Sunny Side,New York City-Queens	,416514
+Winter,Washington Heights,New York City-Manhattan	,403019
+Winter,Bedford-Stuyvesant,New York City-Brooklyn	,324399
+Winter,Park Slope,New York City-Brooklyn	,307015
+Winter,Hamilton Heights,New York City-Manhattan	,276712
+Winter,Chinatown,New York City-Manhattan	,230207
+Winter,Downtown,New York City-Brooklyn	,185125
+Winter,Bushwick,New York City-Brooklyn	,173075
+Winter,Jackson Heights,New York City-Queens	,166268
+Winter,Carroll Gardens,New York City-Brooklyn	,147875
+Winter,Boerum Hill,New York City-Brooklyn	,121237
+Winter,Woodside,New York City-Queens	,113914
+Winter,Forest Hills,New York City-Queens	,107014
+Winter,Cobble Hill,New York City-Brooklyn	,68438
+Winter,Mott Haven,New York City-Bronx	,66827
+Winter,Bay Ridge,New York City-Brooklyn	,62706
+Winter,Inwood,New York City-Manhattan	,57729
+Winter,Mapleton-Flatlands,New York City-Brooklyn	,56218
+Winter,South Bronx,New York City-Bronx	,56147
+Winter,Borough Park,New York City-Brooklyn	,51235
+Winter,Ridgewood,New York City-Queens	,48296
+Winter,Nkew Gardens,New York City-Queens	,44862
+Winter,Greenwood,New York City-Brooklyn	,44564
+Winter,Gravesend-Sheepshead Bay,New York City-Brooklyn	,42849
+Winter,Sunset Park,New York City-Brooklyn	,39524
+Winter,High Bridge,New York City-Bronx	,36961
+Winter,Flushing,New York City-Queens	,35286
+Winter,Maspeth,New York City-Queens	,34186
+Winter,Jamaica,New York City-Queens	,33381
+Winter,Utopia,New York City-Queens	,31468
+Winter,Riverdale,New York City-Bronx	,23721
+Winter,Middle Village,New York City-Queens	,23166
+Winter,Woodhaven-Richmond Hill,New York City-Queens	,22590
+Winter,Bedford Park,New York City-Bronx	,19909
+Winter,Parkchester,New York City-Bronx	,19788
+Winter,Bensonhurst,New York City-Brooklyn	,19291
+Winter,East Brooklyn,New York City-Brooklyn	,19013
+Winter,Canarsie,New York City-Brooklyn	,18907
+Winter,Tremont,New York City-Bronx	,18196
+Winter,Kings Bridge,New York City-Bronx	,18109
+Winter,Soundview,New York City-Bronx	,17038
+Winter,Brownsville,New York City-Brooklyn	,16140
+Winter,Spuyten Duyvil,New York City-Bronx	,15795
+Winter,Fordham,New York City-Bronx	,14311
+Winter,Morris Heights,New York City-Bronx	,14060
+Winter,University Heights,New York City-Bronx	,14004
+Winter,Springfield Gardens,New York City-Queens	,13747
+Winter,Queensboro Hill,New York City-Queens	,12680
+Winter,Dyker Heights,New York City-Brooklyn	,12487
+Winter,Morris Park,New York City-Bronx	,12424
+Winter,Douglastown-Little Neck,New York City-Queens	,11390
+Winter,Glendale,New York City-Queens	,10740
+Winter,Wakefield-Williamsbridge,New York City-Bronx	,8642
+Winter,Union Port,New York City-Bronx	,8240
+Winter,Woodlawn-Nordwood,New York City-Bronx	,7395
+Winter,Auburndale,New York City-Queens	,7372
+Winter,Saintalbans,New York City-Queens	,7154
+Winter,Hunts Point,New York City-Bronx	,7013
+Winter,Throggs Neck,New York City-Bronx	,6958
+Winter,Williams Bridge,New York City-Bronx	,6958
+Winter,The Rockaways,New York City-Queens	,6945
+Winter,Laurelton,New York City-Queens	,6288
+Winter,Clearview,New York City-Queens	,5905
+Winter,Queens Village,New York City-Queens	,5734
+Winter,Country Club,New York City-Bronx	,5392
+Winter,Baychester,New York City-Bronx	,2800
+Winter,City Island,New York City-Bronx	,854
+Winter,Corona,New York City-Queens	,766
+Winter,Flatbush,New York City-Brooklyn	,254
+Winter,Steinway,New York City-Queens	,134
+Winter,Whitestone,New York City-Queens	,7

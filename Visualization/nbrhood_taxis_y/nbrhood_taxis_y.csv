@@ -1,0 +1,199 @@
+way,hood,cnt
+D,Midtown,47653932
+D,Upper East Side,37858889
+D,Upper West Side,24121195
+D,Gramercy,21925775
+D,Chelsea,18629499
+D,Garment District,15357350
+D,Greenwich Village,11520992
+D,Murray Hill,10207705
+D,Clinton,9866833
+D,East Village,9481354
+D,Financial District,6962218
+D,West Village,6938262
+D,Soho,6236169
+D,Lower East Side,6218626
+D,Tribeca,4658756
+D,Central Park,3780584
+D,Carnegie Hill,3600148
+D,Harlem,3256910
+D,Yorkville,3104904
+D,Battery Park,2786676
+D,Astoria-Long Island City,2646136
+D,Williamsburg,2609623
+D,North Sutton Area,2430181
+D,Morningside Heights,2271072
+D,Fort Green,2108043
+D,Little Italy,1964819
+D,East Harlem,1798590
+D,Sunny Side,1711049
+D,Washington Heights,1670889
+D,Bedford-Stuyvesant,1349793
+D,Park Slope,1236191
+D,Hamilton Heights,1141877
+D,Chinatown,950771
+D,Downtown,788803
+D,Bushwick,718499
+D,Jackson Heights,702888
+D,Carroll Gardens,600180
+D,Boerum Hill,488808
+D,Woodside,467822
+D,Forest Hills,448949
+D,Cobble Hill,270801
+D,Mott Haven,267908
+D,Bay Ridge,257964
+D,Inwood,240674
+D,Mapleton-Flatlands,232227
+D,South Bronx,227648
+D,Borough Park,210202
+D,Ridgewood,200359
+D,Nkew Gardens,186772
+D,Greenwood,185444
+D,Gravesend-Sheepshead Bay,176959
+D,Flushing,175946
+D,Sunset Park,170927
+D,High Bridge,169777
+D,Jamaica,147738
+D,Maspeth,140172
+D,Utopia,134774
+D,Riverdale,98169
+D,Woodhaven-Richmond Hill,96792
+D,Middle Village,93987
+D,East Brooklyn,82431
+D,Canarsie,81652
+D,Bedford Park,81301
+D,Parkchester,80657
+D,Bensonhurst,78467
+D,Tremont,75476
+D,Kings Bridge,73903
+D,Brownsville,70005
+D,Soundview,68891
+D,Spuyten Duyvil,64213
+D,Springfield Gardens,63722
+D,Fordham,59713
+D,Morris Heights,57377
+D,University Heights,55028
+D,Queensboro Hill,53227
+D,Morris Park,51792
+D,Dyker Heights,51148
+D,Douglastown-Little Neck,49111
+D,Glendale,44544
+D,Wakefield-Williamsbridge,36513
+D,Auburndale,34791
+D,Union Port,34486
+D,Saintalbans,31551
+D,Woodlawn-Nordwood,30442
+D,Williams Bridge,29352
+D,Throggs Neck,28963
+D,Hunts Point,28641
+D,The Rockaways,28168
+D,Laurelton,27897
+D,Queens Village,25684
+D,Clearview,24949
+D,Country Club,22810
+D,Baychester,11650
+D,City Island,3648
+D,Corona,3517
+D,Flatbush,1342
+D,Steinway,482
+D,Whitestone,21
+D,College Point,2
+D,Howard Beach,2
+P,Midtown,49428925
+P,Upper East Side,40449398
+P,Upper West Side,24710423
+P,Gramercy,24109521
+P,Chelsea,20856165
+P,Garment District,17171429
+P,Greenwich Village,14069552
+P,East Village,10895635
+P,Murray Hill,10266642
+P,Clinton,9794274
+P,West Village,7783043
+P,Lower East Side,7103678
+P,Financial District,6527114
+P,Soho,6473728
+P,Tribeca,5167459
+P,Central Park,4108095
+P,Carnegie Hill,3359195
+P,North Sutton Area,3152661
+P,Little Italy,2742720
+P,Battery Park,2654307
+P,Yorkville,1930185
+P,Morningside Heights,1516990
+P,Astoria-Long Island City,1459907
+P,Harlem,1384944
+P,Williamsburg,1297072
+P,Chinatown,1036458
+P,Sunny Side,938253
+P,East Harlem,875967
+P,Fort Green,783598
+P,Downtown,611368
+P,Hamilton Heights,568226
+P,Carroll Gardens,447945
+P,Washington Heights,360550
+P,Boerum Hill,353666
+P,Park Slope,321230
+P,Jackson Heights,264913
+P,Bedford-Stuyvesant,237683
+P,Woodside,235547
+P,Cobble Hill,159176
+P,Bushwick,128785
+P,Mott Haven,85502
+P,Forest Hills,83248
+P,Jamaica,73483
+P,Greenwood,43561
+P,Flushing,40206
+P,Borough Park,39190
+P,Nkew Gardens,35310
+P,Mapleton-Flatlands,33914
+P,High Bridge,32163
+P,Utopia,29820
+P,Inwood,27570
+P,South Bronx,26998
+P,Maspeth,26260
+P,Sunset Park,21057
+P,Ridgewood,16891
+P,Bay Ridge,16626
+P,Woodhaven-Richmond Hill,14315
+P,Gravesend-Sheepshead Bay,13559
+P,Corona,9812
+P,East Brooklyn,9703
+P,Springfield Gardens,8646
+P,Morris Heights,8060
+P,Parkchester,7935
+P,Brownsville,7859
+P,Tremont,6998
+P,Canarsie,6975
+P,Kings Bridge,6686
+P,Middle Village,6549
+P,Bensonhurst,6314
+P,Soundview,6125
+P,Bedford Park,5895
+P,University Heights,5877
+P,Fordham,5424
+P,Douglastown-Little Neck,5242
+P,Union Port,4877
+P,Glendale,4561
+P,Morris Park,4259
+P,Riverdale,3603
+P,Queensboro Hill,3503
+P,Dyker Heights,3297
+P,Queens Village,2863
+P,Hunts Point,2637
+P,Wakefield-Williamsbridge,2395
+P,Williams Bridge,2219
+P,Saintalbans,2196
+P,Laurelton,2129
+P,Throggs Neck,2043
+P,Spuyten Duyvil,1992
+P,Auburndale,1872
+P,Country Club,1757
+P,Woodlawn-Nordwood,1755
+P,The Rockaways,1556
+P,Baychester,629
+P,Clearview,604
+P,Flatbush,450
+P,Steinway,360
+P,City Island,219
+P,Howard Beach,1

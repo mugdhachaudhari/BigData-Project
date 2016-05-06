@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    /* CSS goes here. */
+</style>
+
+<body>
+    <h4 id="hovered">New York City</h4>
+
+    <div id="label2"><b>Direction:</b>
+        <select name="Direction" id="dir">
+     <option value ="Pickup"  selected="true">Pickup</option>
+	     <option value ="Dropoff">Dropoff</option>
+</select>
+    </div>
+
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="//d3js.org/queue.v1.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="zillow_var.js"></script>
+    <script>
+        /* JavaScript goes here. */
+        var width = 700,
+            height = 580;
+
+        var margin = {top: 20, right: 20, bottom: 10, left: 90},
+            width = 740 - margin.left - margin.right,
+            height = 600 - margin.top - margin.bottom;
+
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+
+
+              svg.append("text")
+                         .attr("x", (width / 2))             
+        .attr("y", 0 - (margin.top / 2) +20)
+                .attr("text-anchor", "middle")  
+        .style("font-size", "14px") 
+        .style("text-decoration", "underline")  
+        .text("Neighborhoods served by Green Taxis");
+
+        var color = d3.scale.threshold()
+            .domain([100000, 500000, 1000000, 2000000])
+            .range(["#edf8fb", "#b3cde3", "#8c96c6", "#8856a7", "#810f7c"]);
+
+        // Append g element to the SVG
+        // g will contain geometry elements
+        var g = svg.append("g");
+
+        // Set Projection Parameters
+        var albersProjection = d3.geo.albers()
+            .scale(80000)
+            .rotate([73.989717, 0])
+            .center([0, 40.724243])
+            .translate([width / 2, height / 2]);
+
+
+
+        // Create GeoPath function that uses built-in D3 functionality to turn
+        // lat/lon coordinates into screen coordinates
+        var geoPath = d3.geo.path()
+            .projection(albersProjection);
+
+        queue()
+            .defer(d3.json, "zillow_nbrhood.json")
+            .defer(d3.csv, "nbrhood_taxis_g.csv")
+            .await(ready);
+
+        function ready(error, zillow_nbrhood, nbrhood_taxis_g) {
+            if (error) throw error;
+
+            var pickup = {};
+            var dropoff = {};
+
+            nbrhood_taxis_g.forEach(function(d) {
+                if (d.way == 'P') {
+                    pickup[d.hood] = +d.cnt;
+                } else {
+                    dropoff[d.hood] = +d.cnt;
+                }
+            });
+
+            var sn = document.getElementById('dir');
+            // Classic D3... Select non-existent elements, bind the data, append the elements, and apply attributes
+            var val;
+
+                    
+            var mnData = svg.append("g")
+                .attr("class", "counties")
+                .selectAll("path")
+                .data(z_json.features);
+
+  
+
+            mnData
+                .enter()
+                .append("path")
+                .attr("fill", "#ccc")
+                .attr("stroke", "#333")
+                .attr("d", geoPath)
+                .style("fill", function(d) {
+                    if (sn.value == 'Pickup') {
+                        return color(pickup[d.properties.NAME]);
+                    } else {
+                        return color(dropoff[d.properties.NAME]);
+                    }
+                })
+                .on("mouseover", function(d) {
+                        if (sn.value == 'Pickup' && d.properties.NAME in pickup ) {
+                            d3.select('#hovered').text( d.properties.NAME + " : " + pickup[d.properties.NAME] );
+                        } else if (sn.value == 'Dropoff' && d.properties.NAME in dropoff){
+                            d3.select('#hovered').text( d.properties.NAME + " : " + dropoff[d.properties.NAME] );
+                        }
+						else {
+							d3.select('#hovered').text( d.properties.NAME );
+						}                 
+                });
+
+
+
+            svg.append("path")
+                .datum(topojson.mesh(zillow_nbrhood, zillow_nbrhood.features[1].properties, function(a, b) {
+                    return a.id !== b.id;
+                }))
+                .attr("d", geoPath);
+
+    
+       
+            d3.select("[name=Direction]").on("change", function() {
+                sn = this;
+
+                var slData = svg.append("g")
+                    .attr("class", "counties").selectAll("path")
+                    .data(z_json.features);
+
+
+
+                var e = slData
+                    .enter()
+                    .append("path");
+
+                var u = slData
+                    .attr("fill", "#ccc")
+                    .attr("stroke", "#333")
+                    .attr("d", geoPath)
+                    .style("fill", function(d) {
+                        if (sn.value == 'Pickup') {
+                            return color(pickup[d.properties.NAME]);
+                        } else {
+                            return color(dropoff[d.properties.NAME]);
+                        }
+                    })
+                    .on("mouseover", function(d) {
+                        if (sn.value == 'Pickup' && d.properties.NAME in pickup ) {
+                            d3.select('#hovered').text( d.properties.NAME + " : " + pickup[d.properties.NAME] );
+                        } else if (sn.value == 'Dropoff' && d.properties.NAME in dropoff){
+                            d3.select('#hovered').text( d.properties.NAME + " : " + dropoff[d.properties.NAME] );
+                        }
+						else {
+							d3.select('#hovered').text( d.properties.NAME );
+						}
+                    });
+
+                svg.append("path")
+                    .datum(topojson.mesh(zillow_nbrhood, zillow_nbrhood.features[1].properties, function(a, b) {
+                        return a.id !== b.id;
+                    }))
+                    .attr("d", geoPath);
+
+                var ex = slData.exit().remove();
+
+
+            });
+        }
+    </script>
+
+
+
+</body>

@@ -1,0 +1,31 @@
+src,dest,cnt
+Upper East Side,Upper East Side,13338086
+Midtown,Midtown,10004351
+Upper West Side,Upper West Side,7770605
+Upper East Side,Midtown,7226785
+Midtown,Upper East Side,6989534
+Garment District,Midtown,4489016
+Midtown,Upper West Side,4079933
+Midtown,Gramercy,4012271
+Upper West Side,Midtown,3903167
+Gramercy,Midtown,3807335
+Upper East Side,Upper West Side,3758694
+Midtown,Garment District,3655005
+Upper West Side,Upper East Side,3554486
+Chelsea,Midtown,2909600
+Gramercy,Gramercy,2878737
+Chelsea,Chelsea,2837268
+Midtown,Chelsea,2595024
+Midtown,Clinton,2266057
+Clinton,Midtown,2032442
+Gramercy,Upper East Side,2007405
+Murray Hill,Midtown,1981034
+Chelsea,Gramercy,1973483
+Upper East Side,Gramercy,1886759
+Midtown,Murray Hill,1880450
+Gramercy,Chelsea,1844711
+Gramercy,Garment District,1704697
+Garment District,Gramercy,1653988
+Gramercy,Murray Hill,1579800
+Chelsea,Garment District,1533436
+Gramercy,Greenwich Village,1488793
