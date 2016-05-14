@@ -28,6 +28,8 @@ for line in sys.stdin:
         if key == 'UNKNOWN':
             continue
         amount = datamapped[18]
+        if(amount <=0 ):
+            continue
         amount_cent = int(round(float(amount.strip('$'))*100))
         d, t = datamapped[1].split(" ")
         t.strip()
