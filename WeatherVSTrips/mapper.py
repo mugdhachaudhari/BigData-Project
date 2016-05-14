@@ -3,13 +3,13 @@
 import datetime
 import sys
 
-key = None
-value = None
+key = 3
+value = ""
 ddate = None
 ttime = None
 temp = None
 for line in sys.stdin:
-    if("UNKNOWN" in line ):
+    if("UNKNOWN" in line or len(line)<=1 ):
         continue
     datamap = line.strip().split(",")
     if datamap[0]=="Time":
@@ -23,5 +23,6 @@ for line in sys.stdin:
     else:
         if(len(datamap)>1):#weather data
             key = "1"
-            value = line
-    print (key+","+value)
+            value = line.strip()
+    if(key != None):
+        print key+","+value

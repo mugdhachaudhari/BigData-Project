@@ -17,24 +17,28 @@ value = None
 stuff = {}
 for line in sys.stdin:
     datamap = line.strip().split(",")
-
     if (datamap[0] == "1"):#weather data
         stuff[datamap[1]]= datamap[2]
     elif datamap[0]== "2": #trip data
-        value = stuff[datamap[1]]
-        if (len(value) != None):
-            if("Clear" in value):
-                clear = clear+1
-            elif ("Rain" in value or value == "Mist"):
-                rain = rain+1
-            elif (value == "Fog" or value == "Haze"):
-                fog = fog+1
-            elif ("Snow" in value):
-                snow = snow+1
-            elif ("Cloud" in value or value == "Overcast" or "cloud" in value):
-                cloud =cloud+1
-            else:
-                continue
+        if(datamap[1] in stuff.keys()):
+            value = stuff[datamap[1]]
+            if (len(value) != None):
+                if("Clear" in value):
+                    clear = clear+1
+                elif ("Rain" in value or value == "Mist"):
+                    rain = rain+1
+                elif (value == "Fog" or value == "Haze"):
+                    fog = fog+1
+                elif ("Snow" in value):
+                    snow = snow+1
+                elif ("Cloud" in value or value == "Overcast" or "cloud" in value):
+                    cloud =cloud+1
+                else:
+                    continue
+        else:
+            continue
+    else:
+        continue
 for j in stuff.keys():
     if("Clear" in stuff[j]):
         t_clear = t_clear+1
