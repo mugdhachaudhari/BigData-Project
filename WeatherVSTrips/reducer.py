@@ -17,6 +17,7 @@ value = None
 stuff = {}
 for line in sys.stdin:
     datamap = line.strip().split(",")
+
     if (datamap[0] == "1"):#weather data
         stuff[datamap[1]]= datamap[2]
     elif datamap[0]== "2": #trip data
